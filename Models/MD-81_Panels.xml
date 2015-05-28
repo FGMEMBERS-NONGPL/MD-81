@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+
+<!--
+McDonnell Douglas MD-81
+Gary R. Neely 'Buckaroo', Mar 2010
+-->
+
+<PropertyList>
+
+<!-- Main -->
+
+<panel>
+  <path>Aircraft/MD-81/Panels/panel_main.xml</path>
+  <top-left>
+    <x-m>2.182</x-m>
+    <y-m>-1.035</y-m>
+    <z-m>1.085</z-m>
+  </top-left>
+  <bottom-left>
+    <x-m>2.288</x-m>
+    <y-m>-1.035</y-m>
+    <z-m>0.586</z-m>
+   </bottom-left>
+  <bottom-right>
+    <x-m>2.288</x-m>
+    <y-m>1.035</y-m>
+    <z-m>0.586</z-m>
+  </bottom-right>
+</panel>
+
+<!-- Glareshield -->
+
+<panel>
+  <path>Aircraft/MD-81/Panels/panel_glareshield.xml</path>
+  <top-left>
+    <x-m>2.478</x-m>
+    <y-m>-0.398</y-m>
+    <z-m>1.195</z-m>
+  </top-left>
+  <bottom-left>
+    <x-m>2.490</x-m>
+    <y-m>-0.398</y-m>
+    <z-m>1.138</z-m>
+   </bottom-left>
+  <bottom-right>
+    <x-m>2.490</x-m>
+    <y-m>0.398</y-m>
+    <z-m>1.138</z-m>
+  </bottom-right>
+</panel>
+
+<!-- Pedestal -->
+
+<panel>
+  <path>Aircraft/MD-81/Panels/panel_pedestal.xml</path>
+  <top-left>
+    <x-m>2.746</x-m>
+    <y-m>-0.148</y-m>
+    <z-m>0.665</z-m>
+  </top-left>
+  <bottom-left>
+    <x-m>3.010</x-m>
+    <y-m>-0.148</y-m>
+    <z-m>0.595</z-m>
+   </bottom-left>
+  <bottom-right>
+    <x-m>3.010</x-m>
+    <y-m>0.148</y-m>
+    <z-m>0.595</z-m>
+  </bottom-right>
+</panel>
+
+ <!-- Weather Radar -->
+
+<!--
+ <panel>
+  <path>Aircraft/MD-81/Models/Instruments/radar/radar.xml</path>
+  <top-left>
+   <x-m>2.251</x-m>
+   <y-m>-0.092</y-m>
+   <z-m>0.753</z-m>
+  </top-left>
+  <bottom-left>
+   <x-m>2.410</x-m>
+   <y-m>-0.092</y-m>
+   <z-m>0.595</z-m>
+  </bottom-left>
+  <bottom-right>
+   <x-m>2.410</x-m>
+   <y-m>0.092</y-m>
+   <z-m>0.595</z-m>
+  </bottom-right>
+ </panel>
+-->
+
+</PropertyList>
+

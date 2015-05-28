@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+<autoflight>
+  <roll-min type="double">-20</roll-min>
+  <roll-max type="double">20</roll-max>
+</autoflight>
+
+<gear>
+  <brake-parking type="double">1.0</brake-parking>
+</gear>
+
+<flight>
+  <el-pos-adj type="double">0</el-pos-adj>
+  <spoilers-master type="double">0</spoilers-master>
+  <spoilers-auto type="bool">false</spoilers-auto>
+  <spoilers-prearm type="bool">false</spoilers-prearm>
+  <spoilers-lockout type="bool">false</spoilers-lockout>
+  <spoilers-mode type="int">0</spoilers-mode>
+  <spoilers-pos-norm-ground type="double">0</spoilers-pos-norm-ground>
+  <spoilers-pos-norm-flight type="double">0</spoilers-pos-norm-flight>
+  <spoilers-pos-norm-left type="double">0</spoilers-pos-norm-left>
+  <spoilers-pos-norm-right type="double">0</spoilers-pos-norm-right>
+</flight>
+
+<lighting>
+<!--
+  <nav type="bool">false</nav>
+  <wingtipaft type="bool">false</wingtipaft>
+  <landing-left type="bool">false</landing-left>
+  <landing-right type="bool">false</landing-right>
+  <landing-extend-left type="bool">false</landing-extend-left>
+  <landing-extend-right type="bool">false</landing-extend-right>
+  <cabin type="double">0</cabin>
+  <beacon type="bool">false</beacon>
+-->
+  <default type="double">0.5</default>
+  <digital-norm type="double">1.0</digital-norm>
+  <pfd-norm type="double">1.0</pfd-norm>
+  <nd-norm type="double">1.0</nd-norm>
+  <panel-norm type="double">0</panel-norm>
+</lighting>
+
+<switches>
+  <at type="int">0</at>
+  <generator n="0"><position type="int">0</position></generator>
+  <generator n="1"><position type="int">0</position></generator>
+  <battery-ship type="int">0</battery-ship>
+  <volts-select-dc type="int">0</volts-select-dc>
+  <volts-select-ac type="int">0</volts-select-ac>
+</switches>
+
+</PropertyList>
+
